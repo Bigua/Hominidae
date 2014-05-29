@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		12AA4889193709BF0024D2C8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12AA4888193709BF0024D2C8 /* Foundation.framework */; };
+		12AA488B193709BF0024D2C8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12AA488A193709BF0024D2C8 /* CoreGraphics.framework */; };
+		12AA488D193709BF0024D2C8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12AA488C193709BF0024D2C8 /* UIKit.framework */; };
+		12AA4893193709BF0024D2C8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 12AA4891193709BF0024D2C8 /* InfoPlist.strings */; };
+		12AA4895193709BF0024D2C8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 12AA4894193709BF0024D2C8 /* main.m */; };
+		12AA4899193709BF0024D2C8 /* HOAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 12AA4898193709BF0024D2C8 /* HOAppDelegate.m */; };
+		12AA489C193709BF0024D2C8 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12AA489A193709BF0024D2C8 /* Main_iPhone.storyboard */; };
+		12AA489F193709BF0024D2C8 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12AA489D193709BF0024D2C8 /* Main_iPad.storyboard */; };
+		12AA48A2193709BF0024D2C8 /* HOViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12AA48A1193709BF0024D2C8 /* HOViewController.m */; };
+		12AA48A4193709BF0024D2C8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12AA48A3193709BF0024D2C8 /* Images.xcassets */; };
+		12AA48AB193709BF0024D2C8 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12AA48AA193709BF0024D2C8 /* XCTest.framework */; };
+		12AA48AC193709C00024D2C8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12AA4888193709BF0024D2C8 /* Foundation.framework */; };
+		12AA48AD193709C00024D2C8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12AA488C193709BF0024D2C8 /* UIKit.framework */; };
+		12AA48B5193709C00024D2C8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 12AA48B3193709C00024D2C8 /* InfoPlist.strings */; };
+		12AA48B7193709C00024D2C8 /* HominidaeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 12AA48B6193709C00024D2C8 /* HominidaeTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		12AA48AE193709C00024D2C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 12AA487D193709BF0024D2C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 12AA4884193709BF0024D2C8;
+			remoteInfo = Hominidae;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		12AA4885193709BF0024D2C8 /* Hominidae.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hominidae.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		12AA4888193709BF0024D2C8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		12AA488A193709BF0024D2C8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		12AA488C193709BF0024D2C8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		12AA4890193709BF0024D2C8 /* Hominidae-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Hominidae-Info.plist"; sourceTree = "<group>"; };
+		12AA4892193709BF0024D2C8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		12AA4894193709BF0024D2C8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		12AA4896193709BF0024D2C8 /* Hominidae-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Hominidae-Prefix.pch"; sourceTree = "<group>"; };
+		12AA4897193709BF0024D2C8 /* HOAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HOAppDelegate.h; sourceTree = "<group>"; };
+		12AA4898193709BF0024D2C8 /* HOAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HOAppDelegate.m; sourceTree = "<group>"; };
+		12AA489B193709BF0024D2C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		12AA489E193709BF0024D2C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		12AA48A0193709BF0024D2C8 /* HOViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HOViewController.h; sourceTree = "<group>"; };
+		12AA48A1193709BF0024D2C8 /* HOViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HOViewController.m; sourceTree = "<group>"; };
+		12AA48A3193709BF0024D2C8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		12AA48A9193709BF0024D2C8 /* HominidaeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HominidaeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		12AA48AA193709BF0024D2C8 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		12AA48B2193709C00024D2C8 /* HominidaeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HominidaeTests-Info.plist"; sourceTree = "<group>"; };
+		12AA48B4193709C00024D2C8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		12AA48B6193709C00024D2C8 /* HominidaeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HominidaeTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		12AA4882193709BF0024D2C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12AA488B193709BF0024D2C8 /* CoreGraphics.framework in Frameworks */,
+				12AA488D193709BF0024D2C8 /* UIKit.framework in Frameworks */,
+				12AA4889193709BF0024D2C8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12AA48A6193709BF0024D2C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12AA48AB193709BF0024D2C8 /* XCTest.framework in Frameworks */,
+				12AA48AD193709C00024D2C8 /* UIKit.framework in Frameworks */,
+				12AA48AC193709C00024D2C8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12AA487C193709BF0024D2C8 = {
+			isa = PBXGroup;
+			children = (
+				12AA488E193709BF0024D2C8 /* Hominidae */,
+				12AA48B0193709C00024D2C8 /* HominidaeTests */,
+				12AA4887193709BF0024D2C8 /* Frameworks */,
+				12AA4886193709BF0024D2C8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		12AA4886193709BF0024D2C8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				12AA4885193709BF0024D2C8 /* Hominidae.app */,
+				12AA48A9193709BF0024D2C8 /* HominidaeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		12AA4887193709BF0024D2C8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				12AA4888193709BF0024D2C8 /* Foundation.framework */,
+				12AA488A193709BF0024D2C8 /* CoreGraphics.framework */,
+				12AA488C193709BF0024D2C8 /* UIKit.framework */,
+				12AA48AA193709BF0024D2C8 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		12AA488E193709BF0024D2C8 /* Hominidae */ = {
+			isa = PBXGroup;
+			children = (
+				12AA4897193709BF0024D2C8 /* HOAppDelegate.h */,
+				12AA4898193709BF0024D2C8 /* HOAppDelegate.m */,
+				12AA489A193709BF0024D2C8 /* Main_iPhone.storyboard */,
+				12AA489D193709BF0024D2C8 /* Main_iPad.storyboard */,
+				12AA48A0193709BF0024D2C8 /* HOViewController.h */,
+				12AA48A1193709BF0024D2C8 /* HOViewController.m */,
+				12AA48A3193709BF0024D2C8 /* Images.xcassets */,
+				12AA488F193709BF0024D2C8 /* Supporting Files */,
+			);
+			path = Hominidae;
+			sourceTree = "<group>";
+		};
+		12AA488F193709BF0024D2C8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				12AA4890193709BF0024D2C8 /* Hominidae-Info.plist */,
+				12AA4891193709BF0024D2C8 /* InfoPlist.strings */,
+				12AA4894193709BF0024D2C8 /* main.m */,
+				12AA4896193709BF0024D2C8 /* Hominidae-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		12AA48B0193709C00024D2C8 /* HominidaeTests */ = {
+			isa = PBXGroup;
+			children = (
+				12AA48B6193709C00024D2C8 /* HominidaeTests.m */,
+				12AA48B1193709C00024D2C8 /* Supporting Files */,
+			);
+			path = HominidaeTests;
+			sourceTree = "<group>";
+		};
+		12AA48B1193709C00024D2C8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				12AA48B2193709C00024D2C8 /* HominidaeTests-Info.plist */,
+				12AA48B3193709C00024D2C8 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		12AA4884193709BF0024D2C8 /* Hominidae */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12AA48BA193709C00024D2C8 /* Build configuration list for PBXNativeTarget "Hominidae" */;
+			buildPhases = (
+				12AA4881193709BF0024D2C8 /* Sources */,
+				12AA4882193709BF0024D2C8 /* Frameworks */,
+				12AA4883193709BF0024D2C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hominidae;
+			productName = Hominidae;
+			productReference = 12AA4885193709BF0024D2C8 /* Hominidae.app */;
+			productType = "com.apple.product-type.application";
+		};
+		12AA48A8193709BF0024D2C8 /* HominidaeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12AA48BD193709C00024D2C8 /* Build configuration list for PBXNativeTarget "HominidaeTests" */;
+			buildPhases = (
+				12AA48A5193709BF0024D2C8 /* Sources */,
+				12AA48A6193709BF0024D2C8 /* Frameworks */,
+				12AA48A7193709BF0024D2C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				12AA48AF193709C00024D2C8 /* PBXTargetDependency */,
+			);
+			name = HominidaeTests;
+			productName = HominidaeTests;
+			productReference = 12AA48A9193709BF0024D2C8 /* HominidaeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		12AA487D193709BF0024D2C8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = HO;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Bigua;
+				TargetAttributes = {
+					12AA48A8193709BF0024D2C8 = {
+						TestTargetID = 12AA4884193709BF0024D2C8;
+					};
+				};
+			};
+			buildConfigurationList = 12AA4880193709BF0024D2C8 /* Build configuration list for PBXProject "Hominidae" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 12AA487C193709BF0024D2C8;
+			productRefGroup = 12AA4886193709BF0024D2C8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				12AA4884193709BF0024D2C8 /* Hominidae */,
+				12AA48A8193709BF0024D2C8 /* HominidaeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		12AA4883193709BF0024D2C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12AA489F193709BF0024D2C8 /* Main_iPad.storyboard in Resources */,
+				12AA48A4193709BF0024D2C8 /* Images.xcassets in Resources */,
+				12AA489C193709BF0024D2C8 /* Main_iPhone.storyboard in Resources */,
+				12AA4893193709BF0024D2C8 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12AA48A7193709BF0024D2C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12AA48B5193709C00024D2C8 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		12AA4881193709BF0024D2C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12AA48A2193709BF0024D2C8 /* HOViewController.m in Sources */,
+				12AA4895193709BF0024D2C8 /* main.m in Sources */,
+				12AA4899193709BF0024D2C8 /* HOAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12AA48A5193709BF0024D2C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12AA48B7193709C00024D2C8 /* HominidaeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		12AA48AF193709C00024D2C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 12AA4884193709BF0024D2C8 /* Hominidae */;
+			targetProxy = 12AA48AE193709C00024D2C8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		12AA4891193709BF0024D2C8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				12AA4892193709BF0024D2C8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		12AA489A193709BF0024D2C8 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				12AA489B193709BF0024D2C8 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		12AA489D193709BF0024D2C8 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				12AA489E193709BF0024D2C8 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		12AA48B3193709C00024D2C8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				12AA48B4193709C00024D2C8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		12AA48B8193709C00024D2C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		12AA48B9193709C00024D2C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		12AA48BB193709C00024D2C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Hominidae/Hominidae-Prefix.pch";
+				INFOPLIST_FILE = "Hominidae/Hominidae-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		12AA48BC193709C00024D2C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Hominidae/Hominidae-Prefix.pch";
+				INFOPLIST_FILE = "Hominidae/Hominidae-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		12AA48BE193709C00024D2C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Hominidae.app/Hominidae";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Hominidae/Hominidae-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "HominidaeTests/HominidaeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		12AA48BF193709C00024D2C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Hominidae.app/Hominidae";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Hominidae/Hominidae-Prefix.pch";
+				INFOPLIST_FILE = "HominidaeTests/HominidaeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		12AA4880193709BF0024D2C8 /* Build configuration list for PBXProject "Hominidae" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12AA48B8193709C00024D2C8 /* Debug */,
+				12AA48B9193709C00024D2C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12AA48BA193709C00024D2C8 /* Build configuration list for PBXNativeTarget "Hominidae" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12AA48BB193709C00024D2C8 /* Debug */,
+				12AA48BC193709C00024D2C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		12AA48BD193709C00024D2C8 /* Build configuration list for PBXNativeTarget "HominidaeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12AA48BE193709C00024D2C8 /* Debug */,
+				12AA48BF193709C00024D2C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 12AA487D193709BF0024D2C8 /* Project object */;
+}
